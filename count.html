@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TIME</title>
+  <meta name="description" content="Countdown Clock">
+  <link rel="stylesheet" href="count.css">
+</head>
+<body>
+  <h1>Learn JavaScript by creating a Timer or Countdown Clock with HTML and CSS Styling!</h1>
+  <div class="display">
+		<div id="clock" class="clock">
+			<h1 class="event_title">Live Event Starts in</h1>
+			<div id="numbers">
+				<span class="days"></span>
+				<span class="hours"></span>
+				<span class="minutes"></span>
+				<span class="seconds"></span>
+			</div>
+			<div id="units">
+				<span>Days</span>
+				<span>Hours</span>
+				<span>Minutes</span>
+				<span>Seconds</span>
+			</div>
+		</div>
+		<div id="door" class="hide">
+			<h1 class="event_title">Event Is Live</h1>
+			<p class="action_caption">Click the button below to enter Live Stream</p>
+			<button class="call_to_action_button" type="button" onclick="liveStream()">Enter Live Stream!</button>
+		</div>
+	</div>
+  <script type= "text/javascript" src="count.js"></script>
+</body>
+</html>
